@@ -1,0 +1,3 @@
+precheck-*/
+*.log
+.DS_Store
