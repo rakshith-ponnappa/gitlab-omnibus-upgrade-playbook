@@ -49,8 +49,8 @@ flowchart TD
 
 ## Case study (anonymised)
 
-- **Context:** a regulated financial-services customer running a single-node GitLab Omnibus instance
-  several major versions behind (12.x), reachable only through a privileged-access bastion and a VDI.
+- **Context:** a regulated financial-services customer on a self-managed GitLab Omnibus instance
+  several major versions behind (12.x), with strict, audited access.
 - **Goal:** reach a supported 19.x release with no data loss, every hop inside an approved
   maintenance window, and evidence for audit.
 - **Approach:**
